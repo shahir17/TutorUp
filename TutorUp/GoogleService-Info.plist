@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>783100618304-sk35rrfledp40ldgp83mfve5p02mp1hq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.783100618304-sk35rrfledp40ldgp83mfve5p02mp1hq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBEgi_NFbg4Y6N9SQiXEfTQSWqd-HvF5WY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>783100618304</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.abdulsatar.TutorUp</string>
+	<key>PROJECT_ID</key>
+	<string>tutorup-e50be</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tutorup-e50be.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:783100618304:ios:535d650722e7c91e</string>
+	<key>DATABASE_URL</key>
+	<string>https://tutorup-e50be.firebaseio.com</string>
+</dict>
+</plist>

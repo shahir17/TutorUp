@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7402EDEFB0692308E0A99F6A /* Pods_TutorUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC577E27D9FF984316F20DF1 /* Pods_TutorUp.framework */; };
+		FA307BF41F6CC3A7003E0C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA307BF31F6CC3A7003E0C5A /* AppDelegate.swift */; };
+		FA307BF61F6CC3A7003E0C5A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA307BF51F6CC3A7003E0C5A /* TabBarController.swift */; };
+		FA307BF91F6CC3A7003E0C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA307BF71F6CC3A7003E0C5A /* Main.storyboard */; };
+		FA307BFB1F6CC3A7003E0C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA307BFA1F6CC3A7003E0C5A /* Assets.xcassets */; };
+		FA307BFE1F6CC3A8003E0C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA307BFC1F6CC3A8003E0C5A /* LaunchScreen.storyboard */; };
+		FA307C061F6CC4F6003E0C5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA307C051F6CC4F6003E0C5A /* GoogleService-Info.plist */; };
+		FA307C091F6CCA28003E0C5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA307C081F6CCA28003E0C5A /* LoginViewController.swift */; };
+		FA6955E91F6E009B00FF2708 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955E81F6E009B00FF2708 /* SearchViewController.swift */; };
+		FA6955EB1F6E00BD00FF2708 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955EA1F6E00BD00FF2708 /* InboxViewController.swift */; };
+		FA6955ED1F6E00D400FF2708 /* MySessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955EC1F6E00D400FF2708 /* MySessionsViewController.swift */; };
+		FA6955EF1F6E00E800FF2708 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955EE1F6E00E800FF2708 /* SettingsViewController.swift */; };
+		FAAEEC961F7478DD00212B91 /* MyStudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEC951F7478DD00212B91 /* MyStudentsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		960C71433E09096F61EB09D4 /* Pods-TutorUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutorUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TutorUp/Pods-TutorUp.release.xcconfig"; sourceTree = "<group>"; };
+		EC577E27D9FF984316F20DF1 /* Pods_TutorUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TutorUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA307BF01F6CC3A6003E0C5A /* TutorUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA307BF31F6CC3A7003E0C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA307BF51F6CC3A7003E0C5A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FA307BF81F6CC3A7003E0C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA307BFA1F6CC3A7003E0C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA307BFD1F6CC3A8003E0C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA307BFF1F6CC3A8003E0C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA307C051F6CC4F6003E0C5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA307C081F6CCA28003E0C5A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA6955E81F6E009B00FF2708 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FA6955EA1F6E00BD00FF2708 /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		FA6955EC1F6E00D400FF2708 /* MySessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySessionsViewController.swift; sourceTree = "<group>"; };
+		FA6955EE1F6E00E800FF2708 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FAAEEC951F7478DD00212B91 /* MyStudentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStudentsViewController.swift; sourceTree = "<group>"; };
+		FECF437B5A722CF0D91C5634 /* Pods-TutorUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutorUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TutorUp/Pods-TutorUp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA307BED1F6CC3A6003E0C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7402EDEFB0692308E0A99F6A /* Pods_TutorUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		599E672386AD03CDF251787A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FECF437B5A722CF0D91C5634 /* Pods-TutorUp.debug.xcconfig */,
+				960C71433E09096F61EB09D4 /* Pods-TutorUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7C914508AF2613B0B94AD47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC577E27D9FF984316F20DF1 /* Pods_TutorUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA307BE71F6CC3A5003E0C5A = {
+			isa = PBXGroup;
+			children = (
+				FA307BF21F6CC3A6003E0C5A /* TutorUp */,
+				FA307BF11F6CC3A6003E0C5A /* Products */,
+				599E672386AD03CDF251787A /* Pods */,
+				A7C914508AF2613B0B94AD47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA307BF11F6CC3A6003E0C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA307BF01F6CC3A6003E0C5A /* TutorUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA307BF21F6CC3A6003E0C5A /* TutorUp */ = {
+			isa = PBXGroup;
+			children = (
+				FA307C071F6CCA0E003E0C5A /* Controller */,
+				FA307BF31F6CC3A7003E0C5A /* AppDelegate.swift */,
+				FA307BF71F6CC3A7003E0C5A /* Main.storyboard */,
+				FA307BFA1F6CC3A7003E0C5A /* Assets.xcassets */,
+				FA307BFC1F6CC3A8003E0C5A /* LaunchScreen.storyboard */,
+				FA307BFF1F6CC3A8003E0C5A /* Info.plist */,
+				FA307C051F6CC4F6003E0C5A /* GoogleService-Info.plist */,
+			);
+			path = TutorUp;
+			sourceTree = "<group>";
+		};
+		FA307C071F6CCA0E003E0C5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEEC941F74788F00212B91 /* MyStudents */,
+				FA6955E51F6DFFAB00FF2708 /* Settings */,
+				FA6955E41F6DFFA200FF2708 /* MyTutors */,
+				FA6955E31F6DFF9900FF2708 /* Inbox */,
+				FA6955E21F6DFF7600FF2708 /* Search */,
+				FA307BF51F6CC3A7003E0C5A /* TabBarController.swift */,
+				FA307C081F6CCA28003E0C5A /* LoginViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FA6955E21F6DFF7600FF2708 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FA6955E81F6E009B00FF2708 /* SearchViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		FA6955E31F6DFF9900FF2708 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				FA6955EA1F6E00BD00FF2708 /* InboxViewController.swift */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
+		FA6955E41F6DFFA200FF2708 /* MyTutors */ = {
+			isa = PBXGroup;
+			children = (
+				FA6955EC1F6E00D400FF2708 /* MySessionsViewController.swift */,
+			);
+			name = MyTutors;
+			sourceTree = "<group>";
+		};
+		FA6955E51F6DFFAB00FF2708 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FA6955EE1F6E00E800FF2708 /* SettingsViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		FAAEEC941F74788F00212B91 /* MyStudents */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEEC951F7478DD00212B91 /* MyStudentsViewController.swift */,
+			);
+			name = MyStudents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA307BEF1F6CC3A6003E0C5A /* TutorUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA307C021F6CC3A8003E0C5A /* Build configuration list for PBXNativeTarget "TutorUp" */;
+			buildPhases = (
+				1F572A40F7E14F2D4E3598D2 /* [CP] Check Pods Manifest.lock */,
+				FA307BEC1F6CC3A6003E0C5A /* Sources */,
+				FA307BED1F6CC3A6003E0C5A /* Frameworks */,
+				FA307BEE1F6CC3A6003E0C5A /* Resources */,
+				E94A6AF7F58E008373A7F9C2 /* [CP] Embed Pods Frameworks */,
+				0E3BAE36699FACC27C4BD736 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutorUp;
+			productName = TutorUp;
+			productReference = FA307BF01F6CC3A6003E0C5A /* TutorUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA307BE81F6CC3A5003E0C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ahmad Shahir Abdul-Satar";
+				TargetAttributes = {
+					FA307BEF1F6CC3A6003E0C5A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8B4QBLLSCD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA307BEB1F6CC3A6003E0C5A /* Build configuration list for PBXProject "TutorUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA307BE71F6CC3A5003E0C5A;
+			productRefGroup = FA307BF11F6CC3A6003E0C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA307BEF1F6CC3A6003E0C5A /* TutorUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA307BEE1F6CC3A6003E0C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA307BFE1F6CC3A8003E0C5A /* LaunchScreen.storyboard in Resources */,
+				FA307BFB1F6CC3A7003E0C5A /* Assets.xcassets in Resources */,
+				FA307BF91F6CC3A7003E0C5A /* Main.storyboard in Resources */,
+				FA307C061F6CC4F6003E0C5A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E3BAE36699FACC27C4BD736 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TutorUp/Pods-TutorUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F572A40F7E14F2D4E3598D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TutorUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94A6AF7F58E008373A7F9C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TutorUp/Pods-TutorUp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TutorUp/Pods-TutorUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA307BEC1F6CC3A6003E0C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAEEC961F7478DD00212B91 /* MyStudentsViewController.swift in Sources */,
+				FA6955EB1F6E00BD00FF2708 /* InboxViewController.swift in Sources */,
+				FA307C091F6CCA28003E0C5A /* LoginViewController.swift in Sources */,
+				FA6955EF1F6E00E800FF2708 /* SettingsViewController.swift in Sources */,
+				FA307BF61F6CC3A7003E0C5A /* TabBarController.swift in Sources */,
+				FA6955ED1F6E00D400FF2708 /* MySessionsViewController.swift in Sources */,
+				FA6955E91F6E009B00FF2708 /* SearchViewController.swift in Sources */,
+				FA307BF41F6CC3A7003E0C5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA307BF71F6CC3A7003E0C5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA307BF81F6CC3A7003E0C5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA307BFC1F6CC3A8003E0C5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA307BFD1F6CC3A8003E0C5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA307C001F6CC3A8003E0C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA307C011F6CC3A8003E0C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA307C031F6CC3A8003E0C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECF437B5A722CF0D91C5634 /* Pods-TutorUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B4QBLLSCD;
+				INFOPLIST_FILE = TutorUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdulsatar.TutorUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA307C041F6CC3A8003E0C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960C71433E09096F61EB09D4 /* Pods-TutorUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B4QBLLSCD;
+				INFOPLIST_FILE = TutorUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdulsatar.TutorUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA307BEB1F6CC3A6003E0C5A /* Build configuration list for PBXProject "TutorUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA307C001F6CC3A8003E0C5A /* Debug */,
+				FA307C011F6CC3A8003E0C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA307C021F6CC3A8003E0C5A /* Build configuration list for PBXNativeTarget "TutorUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA307C031F6CC3A8003E0C5A /* Debug */,
+				FA307C041F6CC3A8003E0C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA307BE81F6CC3A5003E0C5A /* Project object */;
+}
