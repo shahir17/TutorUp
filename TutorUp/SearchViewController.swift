@@ -10,6 +10,8 @@ import UIKit
 import Firebase
 import MapKit
 
+
+
 class SearchViewController: UIViewController, UISearchBarDelegate {
     
     var window: UIWindow?
@@ -34,14 +36,14 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
     
     let searchAreaButton: UIButton = {
         var button = UIButton(type: .system)
-        button.setTitle("Search ", for: .normal)
+        button.setTitle("Find Tutors ", for: .normal)
         button.addTarget(self, action: #selector(handleSearchArea), for: .touchUpInside)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
         button.setTitleColor(UIColor.white, for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
-        button.alpha = 0.7
+        button.alpha = 0.9
         button.translatesAutoresizingMaskIntoConstraints = false
-
+        button.layer.cornerRadius = 5
         return button
         
     }()
@@ -58,7 +60,7 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
         self.view.addSubview(activityIndicator)
         
         searchBar.resignFirstResponder()
-        dismiss(animated: true, completion: nil)
+        //dismiss(animated: true, completion: nil)
         
         let searchRequest = MKLocalSearchRequest()
         searchRequest.naturalLanguageQuery = searchBar.text
@@ -97,11 +99,28 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
     
     
     func handleSearchArea(){
-        
-        //let searchController = UISearchController(searchResultsController: nil)
-        //searchController.searchBar.delegate = self
-        //present(searchController, animated: true, completion: nil)
+        if (searchBar.text?.isEmpty)! {
+            print("Type City")
+        }else {
+        //let ref = Database.database().reference()
+        //ref.child("users").child("tutors").observeSingleEvent(of: .value, with: { (snapshot) in
+          //  let tutor = snapshot.value as? NSDictionary
+           // let tutorId = tutor?.allKeys
+            //print(tutorId)
+        //})
+            let showTutorsController = ShowTutorsViewController()
+            let navController = UINavigationController(rootViewController: showTutorsController)
+            navController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(handleCancelShowTutors))
+            present(navController, animated: true, completion: nil)
+            
+            
+        }
     }
+    
+    func handleCancelShowTutors(){
+        dismiss(animated: true, completion: nil)
+    }
+    
     
 
     override func viewDidLoad() {
@@ -121,12 +140,16 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
          
         setupMapView()
         changeSearchButtonTextWhenCityEntered()
-        
-        //user is not logged in
+        checkIfUserIsLoggedIn()
+       
+    }
+    
+    func checkIfUserIsLoggedIn(){
+         //user is not logged in
         if Auth.auth().currentUser?.uid == nil {
             perform(#selector(handleLogout), with: nil, afterDelay: 0)
         }
-
+        
     }
     func setupMapView(){
         //x,y,w,h

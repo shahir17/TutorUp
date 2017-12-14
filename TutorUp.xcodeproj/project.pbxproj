@@ -15,11 +15,15 @@
 		FA307BFE1F6CC3A8003E0C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA307BFC1F6CC3A8003E0C5A /* LaunchScreen.storyboard */; };
 		FA307C061F6CC4F6003E0C5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA307C051F6CC4F6003E0C5A /* GoogleService-Info.plist */; };
 		FA307C091F6CCA28003E0C5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA307C081F6CCA28003E0C5A /* LoginViewController.swift */; };
+		FA3EA1BB1F83D13D00908C4F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA1BA1F83D13D00908C4F /* User.swift */; };
 		FA6955E91F6E009B00FF2708 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955E81F6E009B00FF2708 /* SearchViewController.swift */; };
 		FA6955EB1F6E00BD00FF2708 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955EA1F6E00BD00FF2708 /* InboxViewController.swift */; };
 		FA6955ED1F6E00D400FF2708 /* MySessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955EC1F6E00D400FF2708 /* MySessionsViewController.swift */; };
 		FA6955EF1F6E00E800FF2708 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955EE1F6E00E800FF2708 /* SettingsViewController.swift */; };
 		FAAEEC961F7478DD00212B91 /* MyStudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEC951F7478DD00212B91 /* MyStudentsViewController.swift */; };
+		FAB181961F82C78500CE46F8 /* ShowTutorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB181951F82C78500CE46F8 /* ShowTutorsViewController.swift */; };
+		FAB4314B1F89DFCA00A5524A /* TutorHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4314A1F89DFCA00A5524A /* TutorHomeController.swift */; };
+		FAE1AEB21F9C3BDB00CD5054 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1AEB11F9C3BDA00CD5054 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,11 +38,15 @@
 		FA307BFF1F6CC3A8003E0C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA307C051F6CC4F6003E0C5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA307C081F6CCA28003E0C5A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA3EA1BA1F83D13D00908C4F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FA6955E81F6E009B00FF2708 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FA6955EA1F6E00BD00FF2708 /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
 		FA6955EC1F6E00D400FF2708 /* MySessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySessionsViewController.swift; sourceTree = "<group>"; };
 		FA6955EE1F6E00E800FF2708 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FAAEEC951F7478DD00212B91 /* MyStudentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStudentsViewController.swift; sourceTree = "<group>"; };
+		FAB181951F82C78500CE46F8 /* ShowTutorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTutorsViewController.swift; sourceTree = "<group>"; };
+		FAB4314A1F89DFCA00A5524A /* TutorHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorHomeController.swift; sourceTree = "<group>"; };
+		FAE1AEB11F9C3BDA00CD5054 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FECF437B5A722CF0D91C5634 /* Pods-TutorUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutorUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TutorUp/Pods-TutorUp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +100,7 @@
 		FA307BF21F6CC3A6003E0C5A /* TutorUp */ = {
 			isa = PBXGroup;
 			children = (
+				FA3EA1B91F83D10200908C4F /* Model */,
 				FA307C071F6CCA0E003E0C5A /* Controller */,
 				FA307BF31F6CC3A7003E0C5A /* AppDelegate.swift */,
 				FA307BF71F6CC3A7003E0C5A /* Main.storyboard */,
@@ -106,6 +115,7 @@
 		FA307C071F6CCA0E003E0C5A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FAB431491F89DF7400A5524A /* TutorHome */,
 				FAAEEC941F74788F00212B91 /* MyStudents */,
 				FA6955E51F6DFFAB00FF2708 /* Settings */,
 				FA6955E41F6DFFA200FF2708 /* MyTutors */,
@@ -117,10 +127,19 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		FA3EA1B91F83D10200908C4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA3EA1BA1F83D13D00908C4F /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		FA6955E21F6DFF7600FF2708 /* Search */ = {
 			isa = PBXGroup;
 			children = (
 				FA6955E81F6E009B00FF2708 /* SearchViewController.swift */,
+				FAB181951F82C78500CE46F8 /* ShowTutorsViewController.swift */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -145,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				FA6955EE1F6E00E800FF2708 /* SettingsViewController.swift */,
+				FAE1AEB11F9C3BDA00CD5054 /* ProfileViewController.swift */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -155,6 +175,14 @@
 				FAAEEC951F7478DD00212B91 /* MyStudentsViewController.swift */,
 			);
 			name = MyStudents;
+			sourceTree = "<group>";
+		};
+		FAB431491F89DF7400A5524A /* TutorHome */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4314A1F89DFCA00A5524A /* TutorHomeController.swift */,
+			);
+			name = TutorHome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +328,11 @@
 				FA6955EF1F6E00E800FF2708 /* SettingsViewController.swift in Sources */,
 				FA307BF61F6CC3A7003E0C5A /* TabBarController.swift in Sources */,
 				FA6955ED1F6E00D400FF2708 /* MySessionsViewController.swift in Sources */,
+				FAE1AEB21F9C3BDB00CD5054 /* ProfileViewController.swift in Sources */,
 				FA6955E91F6E009B00FF2708 /* SearchViewController.swift in Sources */,
+				FAB181961F82C78500CE46F8 /* ShowTutorsViewController.swift in Sources */,
+				FAB4314B1F89DFCA00A5524A /* TutorHomeController.swift in Sources */,
+				FA3EA1BB1F83D13D00908C4F /* User.swift in Sources */,
 				FA307BF41F6CC3A7003E0C5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

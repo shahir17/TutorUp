@@ -66,7 +66,13 @@ class LoginViewController: UIViewController {
                 return
             }
             //successfully logged in user
-            self.dismiss(animated: true, completion: nil)
+            guard let userid = user?.uid
+             else {
+                return
+            }
+            
+            let vc = TabBarController()
+           self.present(vc, animated: true, completion: nil)
                 
             
         }
@@ -116,8 +122,9 @@ class LoginViewController: UIViewController {
 
                     return
                 }
-                    self.dismiss(animated: true, completion: nil)
-                    
+                    //self.dismiss(animated: true, completion: nil)
+                    let registerVC = TabBarController()
+                self.present(registerVC, animated: true, completion: nil)
                                 
             })
             
