@@ -91,8 +91,8 @@ class ShowTutorsViewController: UITableViewController {
         cell.textLabel?.text = user.name
         cell.detailTextLabel?.text = user.email
         
-        cell.imageView?.image = UIImage(named: "userIcon")
-        cell.imageView?.contentMode = .scaleAspectFill
+        //cell.imageView?.image = UIImage(named: "userIcon")
+        //cell.imageView?.contentMode = .scaleAspectFill
         
         
     
@@ -102,7 +102,24 @@ class ShowTutorsViewController: UITableViewController {
         return cell
     }
     
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let tutorDetailController = TutorDetailViewController()
+        
+        self.navigationController?.pushViewController(tutorDetailController, animated: true)
+        
+        
+    }
+    
+    func handleCancelTutorDetailShow(){
+        dismiss(animated: true, completion: nil)
+    }
+    
+   
+    
 }
+
 
 class UserCell: UITableViewCell {
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {

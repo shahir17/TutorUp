@@ -20,6 +20,7 @@
 		FA6955EB1F6E00BD00FF2708 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955EA1F6E00BD00FF2708 /* InboxViewController.swift */; };
 		FA6955ED1F6E00D400FF2708 /* MySessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955EC1F6E00D400FF2708 /* MySessionsViewController.swift */; };
 		FA6955EF1F6E00E800FF2708 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6955EE1F6E00E800FF2708 /* SettingsViewController.swift */; };
+		FA6CE5051FE43C72008E87A9 /* TutorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6CE5041FE43C71008E87A9 /* TutorDetailViewController.swift */; };
 		FAAEEC961F7478DD00212B91 /* MyStudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEC951F7478DD00212B91 /* MyStudentsViewController.swift */; };
 		FAB181961F82C78500CE46F8 /* ShowTutorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB181951F82C78500CE46F8 /* ShowTutorsViewController.swift */; };
 		FAB4314B1F89DFCA00A5524A /* TutorHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4314A1F89DFCA00A5524A /* TutorHomeController.swift */; };
@@ -43,6 +44,7 @@
 		FA6955EA1F6E00BD00FF2708 /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
 		FA6955EC1F6E00D400FF2708 /* MySessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySessionsViewController.swift; sourceTree = "<group>"; };
 		FA6955EE1F6E00E800FF2708 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FA6CE5041FE43C71008E87A9 /* TutorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorDetailViewController.swift; sourceTree = "<group>"; };
 		FAAEEC951F7478DD00212B91 /* MyStudentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStudentsViewController.swift; sourceTree = "<group>"; };
 		FAB181951F82C78500CE46F8 /* ShowTutorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTutorsViewController.swift; sourceTree = "<group>"; };
 		FAB4314A1F89DFCA00A5524A /* TutorHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorHomeController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			children = (
 				FA6955E81F6E009B00FF2708 /* SearchViewController.swift */,
 				FAB181951F82C78500CE46F8 /* ShowTutorsViewController.swift */,
+				FA6CE5041FE43C71008E87A9 /* TutorDetailViewController.swift */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				FA6955ED1F6E00D400FF2708 /* MySessionsViewController.swift in Sources */,
 				FAE1AEB21F9C3BDB00CD5054 /* ProfileViewController.swift in Sources */,
 				FA6955E91F6E009B00FF2708 /* SearchViewController.swift in Sources */,
+				FA6CE5051FE43C72008E87A9 /* TutorDetailViewController.swift in Sources */,
 				FAB181961F82C78500CE46F8 /* ShowTutorsViewController.swift in Sources */,
 				FAB4314B1F89DFCA00A5524A /* TutorHomeController.swift in Sources */,
 				FA3EA1BB1F83D13D00908C4F /* User.swift in Sources */,
